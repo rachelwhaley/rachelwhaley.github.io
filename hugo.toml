@@ -1,14 +1,20 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://rachelwhaley.github.io/'
 languageCode = 'en-us'
 title = 'Intro to Excel Workshop'
 
 [module]
-    # uncomment line below for temporary local development of module
-    # or when using a 'theme' as a git submodule
-    replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
     [[module.imports]]
         path = "github.com/colinwilson/lotusdocs"
         disable = false
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
         disable = false
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[[menu.primary]]
+    name  = "Docs"
+    url = "/docs/"
+    identifier = "docs"
+    weight = 10
