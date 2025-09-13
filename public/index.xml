@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intro to Excel Workshop</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Intro to Excel Workshop</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Sep 2025 19:22:52 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI and Spreadsheets</title>
+      <link>http://localhost:1313/docs/ai-and-spreadsheets/</link>
+      <pubDate>Mon, 08 Sep 2025 19:22:52 -0700</pubDate>
+      <guid>http://localhost:1313/docs/ai-and-spreadsheets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Week 1: Intro to Excel</title>
+      <link>http://localhost:1313/docs/excel-week1/</link>
+      <pubDate>Sat, 06 Sep 2025 16:30:12 -0700</pubDate>
+      <guid>http://localhost:1313/docs/excel-week1/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;For this tutorial, we&amp;rsquo;ll use data on the most popular content on Netflix.&lt;/p&gt;&#xA;&lt;p&gt;You&amp;rsquo;ll be creating a tracker to see how many of the top Netflix titles you&amp;rsquo;ve seen or want to see! The end result will look like this:&lt;/p&gt;&#xA;&lt;p&gt;To download the data:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Go to &lt;a href=&#34;https://www.netflix.com/tudum/top10&#34; rel=&#34;external&#34; target=&#34;_blank&#34;&gt;netflix.com/tudum/top10/​&lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Click &lt;code&gt;Lists&lt;/code&gt; at the top&lt;/li&gt;&#xA;&lt;li&gt;Next to “Most Popular Lists” click Excel&lt;/li&gt;&#xA;&lt;li&gt;Save your file&lt;/li&gt;&#xA;&lt;li&gt;Open up the file in Excel or Google Sheets&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;❓ &lt;strong&gt;Should I use Excel or Google Sheets?&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
