@@ -18,3 +18,7 @@ title = 'Intro to Excel Workshop'
     url = "/docs/"
     identifier = "docs"
     weight = 10
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
