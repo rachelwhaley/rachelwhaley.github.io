@@ -22,3 +22,22 @@ title = 'Intro to Excel Workshop'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+# Lotus Docs configuration
+[params.docs]
+
+    # Set the default HTML title for documentation pages/sections
+    # (separate from the root Hugo site title)
+    title = "Lotus Docs"
+
+    # Pathname for the documentation site
+    # e.g., if you change this, additional theme config may be needed
+    pathName = "docs"
+
+    # Site accent color for links, buttons, icons
+    # Options: blue (default), green, red, yellow, emerald, cardinal, magenta, cyan
+    themeColor = "magenta"
+
+[[module.mounts]]
+    source = 'images'
+    target = 'static/images'
