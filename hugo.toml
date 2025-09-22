@@ -28,7 +28,7 @@ title = 'Intro to Excel Workshop'
 
     # Set the default HTML title for documentation pages/sections
     # (separate from the root Hugo site title)
-    title = "Lotus Docs"
+    title = "Annenberg DL Workshops"
 
     # Pathname for the documentation site
     # e.g., if you change this, additional theme config may be needed

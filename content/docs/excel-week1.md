@@ -4,7 +4,7 @@ title: "Week 1: Intro to Excel"
 description: "Get started with Excel in no time!"
 icon: "article"
 date: "2025-09-06T16:30:12-07:00"
-lastmod: "2025-09-14T16:30:12-07:00"
+lastmod: "2025-09-22T16:30:12-07:00"
 draft: false 
 toc: true
 ---
@@ -122,19 +122,19 @@ Let's look at an example of a summarizing formula to calculate the average runti
 
 ## Combining formulas 
 
-Next, we'll make create a URL for each show, using formulas, written all in a single column, formatted as​:
+Formulas get really powerful when you combine them! You can replace any argument in a formula with, you guessed it, another formula. 
 
-    www.netflix.com​ Slash, the name of the show in all lower case, with no spaces​
+We'll try this out by creating a (fake) URL for each show, using formulas, written all in a single column, formatted as​: www.netflix.com​ Slash, the name of the show in all lower case, with no spaces​.
 
-Example: www.netflix.com/loveisblind ​
+**Example:** For the title *Love Is Blind*, we'd want the result to be `www.netflix.com/loveisblind` ​
 
-    LOWER, SUBSTITUTE, CONCATENATE​
-
+We'll use 3 formulas for this:
+* `LOWER` which makes text all lowercase
+* `SUBSTITUTE` which we used earlier to swap Films for Movies; here, we'll use it to swap spaces for an "empty string" (a set of quotes with nothing in between)
+* `CONCATENATE​` which "adds" two pieces of text together (to add on the first part of the URL)
 ​
 
-Hint: start with each part in a separate column first! ​
-* List item
-* List item
+Hint: start with each formula in a separate column first! ​This way, you can make sure each one creates the desired result, before you combine them all in one cell.
 
 `=XLOOKUP()`
 

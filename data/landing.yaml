@@ -33,3 +33,9 @@ hero:
     url: "/docs"
 
   info: "taught by Rachel Whaley"
+
+imageCompare:
+  enable: false
+
+featureGrid:
+  enable: false
