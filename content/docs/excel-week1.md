@@ -13,7 +13,7 @@ toc: true
 
 For this tutorial, we'll use data on the most popular content on Netflix. 
 
-You'll be creating a tracker to see how many of the top Netflix titles you've seen or want to see! The end result will look like this:
+You'll be creating a tracker to see how many of the top Netflix titles you've seen or want to see! 
 
 To download the data:
 1. Go to [netflix.com/tudum/top10/​](https://www.netflix.com/tudum/top10)
@@ -22,6 +22,8 @@ To download the data:
 4. Save your file
 5. Open up the file in Excel or Google Sheets
 
+---
+
 > ❓ **Should I use Excel or Google Sheets?**
 >
 > You can complete this tutorial using Microsoft Excel or Google Sheets (or even Apple Numbers)! 
@@ -29,7 +31,7 @@ To download the data:
 > Most commonly-used features in Excel also exist in Google Sheets​ (note that the menus or names may be slightly different).​ 
 >
 > Same is true for Mac vs. PC​, there are some variations in menus and keyboard shortcuts​.
-
+---
 
 ## Cells, Rows, and Columns
 
@@ -76,6 +78,8 @@ Formulas let you apply logic or math to cells. There are three important compone
 * Next is the name of the function
 * Next are parentheses `()` which may be empty or may contain one or more inputs to the function, called arguments. If there are multiple arguments, they are separated with commas 
 
+**Pro Tip!** Whenever you start typing in a function name, Excel will provide a helpful pop-up to show you how many inputs you'll need and what they are. For a more detailed description, go to the View menu (not the ribbon) and click Formula Builder, which will give you a sidebar with more info on what each argument is.
+
 ### Math formulas
 Next, we'll test out a simple math formula by adding a column for the length of each content piece in minutes:
 1. Add a new column to your table (right-click the rightmost column of the table and choose Insert -> Table Columns to Right)
@@ -120,9 +124,28 @@ Let's look at an example of a summarizing formula to calculate the average runti
 3. Hit Enter. You should see a single number
 4. Format the label cell and result cell as desired. One option is to select both and choose "Format as Table" from the ribbon, then select your preferred color style
 
+### Summary formulas with logic
+Next we'll add a summary formulas that use conditional logic to determine which data to summarize. 
+
+Add a cell between the logo and the table that will sum up the runtime of only the content that you've watched.
+1. Type a label in one cell, something like `My Viewing Time`
+2. In the cell below, use the formula `=SUMIF` which takes 3 arguments in this order:
+    * The column with the value we want to check whether something is true before we count that row into our total sum (in this case, the `Have I Seen It?` column)
+    * The actual value that we want to match that column against (in this case, should be `"Yes"` or something similar, needs to exactly match however you spelled/capitalized this in the data validation step)
+    * The column with the values we should sum up for the rows where the condition is true (in this case, the `runtime` column)
+3. Select both cells and choose Format as Table, then choose your preferred style
+
+**Bonus**: For extra practice, add another summary that will count the number of pieces of content you've seen, using the function `COUNTIF`
+
 ## Combining formulas 
 
 Formulas get really powerful when you combine them! You can replace any argument in a formula with, you guessed it, another formula. 
+
+As we keep trying out new functions, you'll need to start looking for yourself to see which inputs each function needs. This is an important skill! You don't have to memorize each function, you just need to be able to figure out how to get a reminder each time you use it. 
+
+**Reminder!** Whenever you start typing in a function name, Excel will provide a helpful pop-up to show you how many inputs you'll need and what they are. For a more detailed description, go to the View menu (not the ribbon) and click Formula Builder, which will give you a sidebar with more info on what each argument is.
+
+### Combining row-based formulas
 
 We'll try this out by creating a (fake) URL for each show, using formulas, written all in a single column, formatted as​: www.netflix.com​ Slash, the name of the show in all lower case, with no spaces​.
 
@@ -133,12 +156,23 @@ We'll use 3 formulas for this:
 * `SUBSTITUTE` which we used earlier to swap Films for Movies; here, we'll use it to swap spaces for an "empty string" (a set of quotes with nothing in between)
 * `CONCATENATE​` which "adds" two pieces of text together (to add on the first part of the URL)
 ​
-
 Hint: start with each formula in a separate column first! ​This way, you can make sure each one creates the desired result, before you combine them all in one cell.
 
-`=XLOOKUP()`
+### Combining summary formulas
+
+Next we'll combine some summary formulas to figure out what percentage of these top titles you've seen. The formulas we'll use are:
+* `COUNTIF` to count the number of titles you've seen (this works similarly to `SUMIF` from above)
+* `COUNTA` to count the total number of titles
+* `/` for regular ol' division, to divide our first result by our second result to find our percentage
+
+Be sure to format the cell as %! 
 
 ## Formatting finishing touches
+
+This part is totally up to you! Here are some suggestions to make the final product more visually appealing:
+1. **Add some color**: Select one of the rows above or below your logo and summary metrics. In the ribbon, hit Fill > More Colors > Eyedropper and hover over the logo red color, then hit OK
+2. **Hide the gridlines**: Toggle to the View ribbon, then uncheck the box next to Gridlines
+3. **Set it to scroll nicely**: Select the first cell under the category header, then in the View ribbon, hit Freeze Panes. Now your column headers and all the rows above that will stay locked in place when you scroll down in the document
 
 
 ## Level up!
