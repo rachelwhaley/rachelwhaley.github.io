@@ -13,14 +13,8 @@ toc: true
 
 For this week's tutorial, we'll combine all the knowledge we've gained so far to create a dashboard to meet client requirements.
 
-## Review from last week
-
 So far, we've covered formulas, including row-based formulas, summary formulas, XLOOKUP, cumulative formulas, pivot tables, and pivot charts.
-
-1. On the Campaign Participation sheet, add a column to bring in each show’s monthly downloads number, using XLOOKUP​
-2. Then, use a row-based formula to calculate the monthly revenue for each row in campaign_participation​
-    * Hint: Revenue = CPM*(downloads/1000)​
-3. Add a Cumulative Revenue column to the Campaign Participation sheet
+Cumulative Revenue column to the Campaign Participation sheet
 
 ### To download the data
 
@@ -69,7 +63,7 @@ Here are a few hints for each component to help you get started!
 * In the 2025 sheet, use DATE formula to convert months to dates (year = 2025)
 * In your pivot table, display the revenue sum as a `Running Total of` the campaign month
 * Sort both by date
-* Create 2 charts
+* Create 2 charts (one for each year) and consider adding a slicer by advertiser
 
 ### Component #4: Dealer's Choice
 
