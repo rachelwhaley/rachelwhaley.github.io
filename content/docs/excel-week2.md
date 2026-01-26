@@ -5,7 +5,7 @@ description: "Learn to harness the power of formulas"
 icon: "article"
 date: "2025-09-26T16:30:12-07:00"
 lastmod: "2025-09-29T16:30:12-07:00"
-draft: false 
+draft: true 
 toc: true
 ---
 
@@ -108,5 +108,5 @@ Recommended method:​
 
 ### Level up! 
 
-* Find another dataset to practice with (see suggestions in [Week 1](../docs/excel-week1.md))
+* Find another dataset to practice with (see suggestions in [Week 1](../docs/excel-part1.md))
 * Try asking an AI assistant to create some practice exercises for you! You can try a prompt like this: `Create some exercises and sample datasets for me to learn the xlookup formula in excel. Don't tell me the solution! Create a practice workbook (.xlsx) that I can download to practice writing formulas.`

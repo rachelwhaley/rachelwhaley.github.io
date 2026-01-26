@@ -1,6 +1,7 @@
 baseURL = 'https://rachelwhaley.github.io/'
 languageCode = 'en-us'
-title = 'Intro to Excel Workshop'
+title = 'Analytics Skills Workshops | USC Annenberg Digital Lounge'
+theme = "hugo-book"
 
 [module]
     [[module.imports]]
@@ -14,10 +15,10 @@ title = 'Intro to Excel Workshop'
     unsafe = true
 
 [[menu.primary]]
-    name  = "Docs"
-    url = "/docs/"
-    identifier = "docs"
-    weight = 10
+    # name  = "Docs"
+    # url = "/docs/"
+    # identifier = "docs"
+    # weight = 10
 
 [caches]
   [caches.images]
@@ -28,7 +29,7 @@ title = 'Intro to Excel Workshop'
 
     # Set the default HTML title for documentation pages/sections
     # (separate from the root Hugo site title)
-    title = "Annenberg DL Workshops"
+    title = "Annenberg Digital Loungs Workshops"
 
     # Pathname for the documentation site
     # e.g., if you change this, additional theme config may be needed

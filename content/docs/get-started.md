@@ -1,10 +1,10 @@
 ---
 weight: 40
-title: "Get Started"
+title: "Get Started with Spreadsheets"
 description: "Using Excel or Google Sheets"
 icon: "article"
 date: "2025-10-05T19:22:52-07:00"
-lastmod: "2025-10-06T19:22:52-07:00"
+lastmod: "2026-01-25T19:22:52-07:00"
 draft: false
 toc: true
 ---

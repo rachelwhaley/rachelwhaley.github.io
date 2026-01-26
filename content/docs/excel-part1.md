@@ -1,10 +1,10 @@
 ---
 weight: 100
-title: "Week 1: Intro to Excel"
+title: "Excel Part 1: Formulas"
 description: "Get started with Excel in no time!"
 icon: "article"
 date: "2025-09-06T16:30:12-07:00"
-lastmod: "2025-09-22T16:30:12-07:00"
+lastmod: "2026-01-25T16:30:12-07:00"
 draft: false 
 toc: true
 ---
