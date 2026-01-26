@@ -11,24 +11,25 @@ hero:
       mobile: "gradient-mobile.webp"
 
   badge:
-    text: Fall 2025
+    text: Spring 2026
     color: primary # primary, secondary, success, danger, warning, info, light, dark
     pill: false # boolean
     soft: true # boolean
 
-  title: "Intro to Excel Workshop"
-  subtitle: "USC Annenberg Digital Lounge"
+  title: "Analytics Skills"
+  subtitle: "Workshops for USC Annenberg Digital Lounge"
   
 
   image:
+    enable: false
     path: "images" # path to image under configured assets directory. default 'images'
-    filename: "lotus_docs_screenshot.png" # filename of your hero image (including file extension)
-    alt: "Lotus Docs Screenshot" # Optional but recommended
+    filename: "maxim-berg-kE8-rUKjtQU-unsplash.jpg" # "lotus_docs_screenshot.png" # filename of your hero image (including file extension)
+    alt: "Photo by Maxim Berg on Unsplash" # "Lotus Docs Screenshot" # Optional but recommended
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
   ctaButton:
-    icon: rocket_launch
+    icon: keyboard_double_arrow_right
     btnText: "Get Started"
     url: "/docs"
 
