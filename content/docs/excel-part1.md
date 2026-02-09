@@ -4,7 +4,7 @@ title: "Excel Part 1: Formulas"
 description: "Get started with Excel in no time!"
 icon: "article"
 date: "2025-09-06T16:30:12-07:00"
-lastmod: "2026-01-25T16:30:12-07:00"
+lastmod: "2026-02-09T10:30:12-07:00"
 draft: false 
 toc: true
 ---
@@ -16,7 +16,7 @@ For this tutorial, we'll use data on the most popular content on Netflix.
 You'll be creating a tracker to see how many of the top Netflix titles you've seen or want to see! 
 
 To download the data:
-1. Go to [netflix.com/tudum/top10/​](https://www.netflix.com/tudum/top10)
+1. Go to [netflix.com/tudum/top10/​](https://www.netflix.com/tudum/top10) and click the download icon on the right 
 2. Click `Lists` at the top
 3. Next to “Most Popular Lists” click Excel
 4. Save your file
