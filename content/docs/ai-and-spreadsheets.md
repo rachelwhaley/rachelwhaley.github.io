@@ -1,5 +1,5 @@
 ---
-weight: 500
+weight: 700
 title: "AI and Analytics"
 description: "Tips on how to learn analytics in the age of AI"
 icon: "article"
