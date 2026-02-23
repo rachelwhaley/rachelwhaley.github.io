@@ -13,7 +13,13 @@ toc: true
 
 For this tutorial, we'll use data on the most popular content on Netflix. 
 
-You'll be creating a tracker to see how many of the top Netflix titles you've seen or want to see! 
+You'll be creating a tracker to see how many of the top Netflix titles you've seen or want to see! The finished product will look something like this:
+
+<div style="text-align: center; width: 70%; justify-content: center; margin-left: auto; margin-right: auto; height: auto;">
+  <img src="../../images/excel_netflix_tracker_example.png" alt="Sample Netflix Top Content Tracker">
+</div>
+
+---
 
 To download the data:
 1. Go to [netflix.com/tudum/top10/​](https://www.netflix.com/tudum/top10) and click the download icon on the right 
