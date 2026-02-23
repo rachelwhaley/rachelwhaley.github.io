@@ -4,7 +4,7 @@ title: "Data App with Python Part 2"
 description: "Learn how to manipulate data, use functions, and create a basic web app."
 icon: "article"
 date: "2026-02-21T16:30:12-07:00"
-lastmod: "2026-02-21T10:30:12-07:00"
+lastmod: "2026-02-22T10:30:12-07:00"
 draft: false 
 toc: true
 ---
@@ -126,20 +126,21 @@ Notice that our `athletes_2026` dataframe has a column for country_code, but not
 
 ## Create a side-by-side comparison
 
+Duplicate your Markdown cell with the "2024 Olympics Results" header, change it to 2026, and add it to your app. Drag it next to the existing header, so that we can create a side-by-side comparison view. 
+
 ### Single-value comparison
-1. Duplicate your Markdown cell with the "2024 Olympics Results" header, change it to 2026, and add it to your app. Drag it next to the existing header, so that we can create a side-by-side comparison view. 
-2. Find the number of medallists from the 2026 Olympics from the selected country. To do this:
+1. Find the number of medallists from the 2026 Olympics from the selected country. To do this:
     1. Copy the code we used to find this value from the 2024 Olympics into a new python cell 
     2. Update the variable name to include `_2026` so that you don't overwrite your existing variable 
     3. Update the dataframe used to pull the value to the dataframe we created in the last section, `athletes_2026_with_country`
-3. Create a single-value cell that displays the variable you just created
+2. Create a single-value cell that displays the variable you just created
     * Title = `Athletes from {{selected_country}} in 2026`
     * Show Comparison = On
     * Type = Absolute Change
     * Format = Positive / Negative 
     * Value = `country_athlete_count` (the # of athletes from 2024)
     * Label = `vs. 2024 athletes` 
-4. Add this cell to your app view, then toggle to the App Builder view at the top of your screen and test out whether it changes when you toggle the dropdown! 
+3. Add this cell to your app view, then toggle to the App Builder view at the top of your screen and test out whether it changes when you toggle the dropdown! 
 
 We unfortunately can't add the average age stat for the 2026 Olympics, since athlete birthdate wasn't included in our dataset. If you find a dataset that does contain that info, you can upload it to the Files section as we did above and follow this same workflow to add this in.
 
@@ -153,6 +154,8 @@ We can, however, add summary stats for our 2026 side-by-side comparison:
 3. Edit the new Markdown cell to refer to your new variable names
     * Remember that the Markdown cell needs to come *after* the variables it's referring to. You can shift a cell down or up by clicking the `...` on the right
 4. Add this cell to your app view, then toggle to the App Builder view at the top of your screen and test out whether it changes when you toggle the dropdown! 
+
+Use this same workflow to update the "[country] had the most medallists in [sport]" component that we created earlier: copy the code, update the dataframe and variable names, and set a copy of the Markdown to refer to those new variables. 
 
 ### Dynamic list comparison
 Finally, we'll add the athlete details view in for our 2026 side-by-side:
