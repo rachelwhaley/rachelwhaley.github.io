@@ -67,14 +67,15 @@ Recommended method:​
 ## Cumulative formulas
 * These formulas allow you to keep "running total" style calculations
 * For each row, apply a formula to all of the rows preceding and including that row​
-* To "glue" the top of your formula range in place, you'll use an absolute cell reference on the first cell in your range, but not on the second cell
+* To "glue" the top of your formula range in place, you'll use an absolute cell reference on the first cell in your range
     * An absolute cell reference looks like `$B$2` (compared to the reference `B2`)
+    * This means that the first formula you'll type in will look like `=SUM($B$2:B2)`
 
 **Let's try it out:** 
 1. On the Campaign Participation sheet, add a column with each show’s monthly downloads number, using XLOOKUP​
 2. Then, use a row-based formula to calculate the monthly revenue for each row in campaign_participation​
     * Hint: Revenue = CPM*(downloads/1000)​
-3. Add a Cumulative Revenue column to the Campaign Participation sheet
+3. Add a formula to the Cumulative Revenue column to the Campaign Participation sheet
 
 ## Static Summary Tables
 These are tables that use formulas to summarize a larger dataset. We actually created a few very simple summary tables in Part 1! This week we'll add more formulas to them. Some best practices for summary tables:
