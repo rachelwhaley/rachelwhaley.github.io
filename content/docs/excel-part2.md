@@ -20,7 +20,7 @@ For this week's tutorial, we'll review what we learned last week (using data on 
 Moving on to today's topic, advanced formulas!
 
 ### To download the data
-1. Click [here](https://uscedu-my.sharepoint.com/:x:/g/personal/whaleyr_usc_edu/EcsFaucTgFhBvQAqEk14tY8BsmYRKyGB5pY60GszZQMKBA?e=dt2dyB) to download this week's data source, which is data from a fictional podcast network.
+1. Click [here](https://uscedu-my.sharepoint.com/:x:/g/personal/whaleyr_usc_edu/IQBy5Z6QY8OPTJ8Wz0ZfgqlVAT-7czOb-_WdfHB7DH3UzkQ?e=nq9B3r) to download this week's data source, which is data from a fictional podcast network.
 2. You'll need to sign in with your USC Microsoft account to access the file
 3. Once open, click **File**
 4. Choose **Create a copy** or **Download** so that you can add your formulas to your own copy during the rest of the session!
