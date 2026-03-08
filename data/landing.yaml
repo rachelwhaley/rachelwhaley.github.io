@@ -33,7 +33,7 @@ hero:
     btnText: "Get Started"
     url: "/docs"
 
-  info: "taught by Rachel Whaley"
+  info: "taught by [Rachel Whaley](https://www.linkedin.com/in/rachelrwhaley)"
 
 imageCompare:
   enable: false
